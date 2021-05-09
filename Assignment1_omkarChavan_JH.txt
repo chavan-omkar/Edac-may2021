@@ -1,0 +1,585 @@
+class Q1{
+public static void main(String args[])
+{
+ 
+System.out.println("hello");
+System.out.println("omkar chavan");
+}
+}
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+class Q2
+{
+ public static void main(String args[])
+{
+System.out.println("enter two number");
+Scanner sc=new Scanner(System.in);
+int no1=sc.nextInt();
+int no2=sc.nextInt();
+System.out.println(no1+no2);
+}
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+class Q3
+{
+ public static void main(String args[])
+{Scanner no= new Scanner(System.in);
+System.out.println("enter two numbers: ");
+int s1= no.nextInt();
+int s2= no.nextInt();
+int s3= s1/s2;
+System.out.println("division :"+s3);
+}
+}
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+class Q4
+{
+   public static void main(String args[])
+	{
+	  System.out.println(-5+8*6);
+	  System.out.println((55+9)%9);
+	  System.out.println(20+-3*5/8);
+	  System.out.println(5+15/3*2-8%3);
+	}
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+class Q5
+{
+ public static void main(String args[])
+{Scanner no= new Scanner(System.in);
+System.out.println("enter two numbers: ");
+int s1= no.nextInt();
+int s2= no.nextInt();
+int s3= s1*s2;
+System.out.println("multiplication :"+s3);
+}
+}
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+import java.lang.*;
+class Q6
+{ public static void main(String args[])
+   {
+ Scanner sc= new Scanner(System.in);
+ int no1=sc.nextInt();
+int no2=sc.nextInt();
+System.out.println("addition="+(no1+no2));
+
+System.out.println("substraction="+(no1-no2));
+
+System.out.println("multiplication="+(no1*no2));
+
+System.out.println("division="+(no1/no2));
+
+System.out.println("mod="+(no1%no2));
+}
+}
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+class Q7
+{
+public static void main(String args[])
+{
+Scanner no = new Scanner(System.in);
+System.out.println("enter the number :");
+int s1 = no.nextInt();
+System.out.println("Table of :"+s1);
+int i;
+for(i=1;i<=10;i++)
+{
+System.out.println(s1+"x"+i+" = "+s1*i);
+}
+}
+}
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+class Q8
+{
+ public static void main(String args[])
+{
+for(int i=1;i<=4;i++)
+{
+for(int j=1;j<=22;j++)
+{
+if(i==1&&j==4||i==2&&j==4||i==3&&j==1||i==3&&j==4||i==4&&j==3||i==4&&j==2)
+{System.out.print("j");}
+else if(i==1&&j==8||i==2&&j==7||i==2&&j==9||i==4&&j==5||i==3&&j==6||i==3&&j==7||i==3&&j==8||i==3&&j==9||i==3&&j==10||i==4&&j==11)
+{System.out.print("a");}
+else if(i==1&&j==10||i==1&&j==16||i==2&&j==11||i==2&&j==15||i==3&&j==12||i==3&&j==14||i==4&&j==13)
+{System.out.print("v");}
+else if(i==1&&j==18||i==2&&j==17||i==2&&j==19||i==3&&j==16||i==3&&j==17||i==3&&j==18||i==3&&j==19||i==3&&j==20||i==4&&j==15||i==4&&j==21) 
+{System.out.print("a");}
+else
+{System.out.print(" ");
+}
+}
+System.out.println();
+}
+}
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+import java.lang.*;
+class Q9
+ {
+   public static void main(String args[])
+	{
+ System.out.println((25.5*3.5-3.5*3.5)/(40.5-4.5));
+ 	}
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+class Q10
+ {
+   public static void main(String args[])
+	{
+double formula=4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11));
+ System.out.println(formula);
+ 	}
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+class Q11
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the radius =");
+ double r=sc.nextDouble();
+ double a = 3.141592653589793238*r*r;
+ double p= 2*3.141592653589793238*r;
+System.out.println("area of circle ="+a);
+System.out.println("perimeter of circle ="+p);
+}
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+class Q12
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter Three Numbers =");
+float s1=sc.nextFloat();
+float s2= sc.nextFloat();
+float s3= sc.nextFloat();
+float s4= (s1+s2+s3)/3;
+System.out.println("Average ="+s4);
+}
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+class Q13
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the width and height =");
+ double w=sc.nextDouble();
+double h=sc.nextDouble();
+ double a = (w*h);
+ double p= 2*(w+h);
+System.out.println("area of Rectangle ="+(float)a);
+System.out.println("perimeter of Rectangle ="+(float)p);
+}
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+class Q14
+{
+public static void main(String args[])
+{
+for(int i=1;i<=10;i++)
+{
+if(i<=4)
+{
+System.out.println("* * * * * * = = = = = = = = = = = ");
+System.out.println(" * * * * *  = = = = = = = = = = = ");
+}
+else
+{
+System.out.println("= = = = = = = = = = = = = = = = =");
+}
+}
+}
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+class Q15
+{
+public static void main(String args[])
+{
+
+Scanner sc = new Scanner(System.in);
+System.out.println("enter two no=");
+int a= sc.nextInt();
+int b= sc.nextInt();
+System.out.println("before swapping=");
+System.out.println(+a);
+System.out.println(+b);
+a=a+b;
+b=a-b;
+a=a-b;
+System.out.println("after swapping=");
+System.out.println(+a);
+System.out.println(+b);
+}
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+class Q16
+{
+public static void main(String args[])
+{
+for(int i=1;i<=5;i++)
+{
+if(i<=1)
+{
+System.out.println(" +\"\"\"\"\"+ ");
+}
+else if((i>1) && (i<=2))
+{
+System.out.println("[| o o |]");
+}
+else if((i>2) && (i<=3))
+{
+System.out.println(" |  ^  | ");
+}
+else if((i>3) && (i<=4))
+{
+System.out.println(" | '-' | ");
+}
+else 
+{
+System.out.println(" +-----+ ");
+}
+}
+}
+}
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.*;
+class Q17
+{
+public static void main(String args[])
+{Scanner sc=new Scanner(System.in);
+System.out.println("Enter Two Binary Number= ");
+int num1=sc.nextInt();
+int num2=sc.nextInt();
+
+int a=0,b=0,i=0,carry=0;
+int sum[]=new int[10];
+System.out.println("Addition of two binary number=");
+while((num1!=0) || (num2!=0))
+{
+a=num1%10;
+b=num2%10;
+
+if((a==0) && (b==0))
+{
+sum[i]=a+b+carry;
+}
+else if ((a==1)&&(b==1))
+{
+sum[i]=(a+b+carry)%2;
+carry=1;
+}
+else if((a==1)&&(b==0)||(a==0)&&(b==1))
+{
+sum[i]=(a+b+carry)%2;
+
+}
+i++;
+num1=num1/10;
+num2=num2/10;
+}
+if(carry!=0)
+{
+sum[i++]=1;
+}
+for(int j=i-1;j>=0;j--)
+{
+System.out.print(sum[j]);
+}
+}
+}
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+class Q18
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter two binary numbers= ");
+int no1=sc.nextInt();
+int no2=sc.nextInt();
+/*int no1=1011;
+int no2=1111;*/
+int b=0,a=0,c=0,d=0;
+int i=0,index=0,j=0,mult=0;
+int e[]=new int[10];
+while(no1!=0 && no2!=0)
+{
+
+a=no1%10;
+b=no2%10;
+c=(int)(c+a*Math.pow(2,i));
+d=(int)(d+b*Math.pow(2,i));
+no1=no1/10;
+no2=no2/10;
+i++;
+}
+mult=c*d;
+while(mult!=0)
+{
+e[index]=mult%2;
+mult=mult/2;
+index++;
+}
+for(j=e.length-1;j>=0;j--)
+{
+System.out.print(e[j]);
+}
+}
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+import java.io.*;
+class Q19
+{
+public static void main(String args[])
+{
+int oct[]=new int[10];
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the no= ");
+int num=sc.nextInt();
+int i=0;
+while(num!=0)
+{
+int temp=0;
+temp=num%2;
+if(temp<2)
+{
+oct[i]=(temp);
+i++;
+}
+else
+{
+oct[i]=(temp);
+i++;
+}
+num=num/2;
+}
+for(int j=i-1;j>=0;j--)
+{
+System.out.print(oct[j]);
+}
+}
+}
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+import java.io.*;
+class Q20
+{
+public static void main(String args[])
+{
+char hex[]=new char[10];
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the no= ");
+int num=sc.nextInt();
+int i=0;
+while(num!=0)
+{
+int mod=0;
+mod=num%16;
+if(mod<10)
+{
+hex[i]=(char)(mod+48);
+i++;
+}
+else
+{
+hex[i]=(char)(mod+55);
+i++;
+}
+num=num/16;
+}
+for(int j=i-1;j>=0;j--)
+{
+System.out.print(hex[j]);
+}
+}
+}
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+import java.io.*;
+class Q21
+{
+public static void main(String args[])
+{
+int oct[]=new int[10];
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the no= ");
+int num=sc.nextInt();
+int i=0;
+while(num!=0)
+{
+int temp=0;
+temp=num%8;
+if(temp<8)
+{
+oct[i]=(temp);
+i++;
+}
+else
+{
+oct[i]=(temp);
+i++;
+}
+num=num/8;
+}
+for(int j=i-1;j>=0;j--)
+{
+System.out.print(oct[j]);
+}
+}
+}
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.lang.Math;
+import java.util.Scanner;
+class Q22
+{
+public static void main(String args[])
+{
+Scanner sc= new Scanner(System.in);
+System.out.println("Enter the binary number= ");
+int num=sc.nextInt();
+int i=0;
+double dec=0;
+while(num!=0)
+{
+int temp=num%10;
+dec=(dec+(temp*Math.pow(2,i)));
+num=num/10;
+i++;
+}
+System.out.println("Decimal number="+(int)dec);
+}
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+class Q23 {
+  public static void main(String args[]) {
+Scanner sc=new Scanner(System.in);
+System.out.println("enter binary number=");
+    long binary = sc.nextInt(); 
+   int  decimal = 0, i = 0,rem=0,index=0;
+int hex[]=new int [100];
+    while (binary != 0) {
+      decimal +=(binary % 10) * Math.pow(2, i);
+      i++;
+      binary= binary/10;
+    }
+    while (decimal != 0)
+ {
+      hex[index] =decimal % 16;
+decimal = decimal/16;
+index++;
+}
+System.out.println("Hexadecial value is= ");
+for(int j=index-1;j>=0;j--)
+{
+if(hex[j]>9)
+System.out.print((char)(hex[j]+55));
+else
+System.out.print(hex[j]);
+}
+}
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+class Q24 {
+  public static void main(String args[]) {
+Scanner sc=new Scanner(System.in);
+System.out.println("enter binary number=");
+    long binary = sc.nextInt(); 
+   int octal = 0, decimal = 0, i = 0;
+
+    while (binary != 0) {
+      decimal +=(binary % 10) * Math.pow(2, i);
+      ++i;
+      binary= binary/10;
+    }
+
+    i = 1;
+
+    while (decimal != 0) {
+      octal +=(decimal % 8) * i;
+      decimal = decimal/8;
+      i =i* 10;
+    }
+
+    System.out.println(octal);
+  }
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+class Q25
+ {
+  public static void main(String args[]) {
+Scanner sc=new Scanner(System.in);
+System.out.println("enter octal number=");
+    long octal = sc.nextInt(); 
+   int  decimal = 0, i = 0;
+
+    while(true)
+{ if (octal == 0) 
+ {
+      break;
+    }
+    else {
+decimal +=(octal % 10) * Math.pow(8, i);
+ 
+    }
+   octal= octal/10;
+i++;  
+  }
+octal= octal/10;
+i++;
+    System.out.println(decimal);
+}
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
